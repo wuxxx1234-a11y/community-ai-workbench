@@ -1,0 +1,54 @@
+# 业务数据目录：只保留在本地工作区，不进入 Git
+/00_待分类/
+/01_事项台账/
+/02_今日待办/
+/03_居民资料_未入档/
+/04_居民档案/
+/05_填写资料模板/
+/06_政策资料/
+/07_会议材料/
+/08_工作材料/
+/09_社区知识/
+/10_个人周总结/
+/11_对外草稿/
+/99_无法确认/
+/99_敏感资料_禁止AI读取/
+
+# 工作台运行产物
+/scripts/_runtime/
+/.workbench-phase1.lock
+*.lock
+*.log
+*.tmp
+*.bak
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.venv/
+venv/
+
+# 本地配置和密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+desktop.ini
